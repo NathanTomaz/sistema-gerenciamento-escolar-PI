@@ -1,0 +1,203 @@
+<!--
+
+/* Folha de estilo geral
+================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font: 62.5%/1.6 "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+
+  background-image: url(../images/back.jpg);
+
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+  color: black;
+  font-family: "Colibri";
+  text-align: center;
+
+}
+
+/* tirando o subinhado dos links */
+a{
+	text-decoration:none;
+  font-size: 13px;
+}
+
+
+h2 {
+  font-size: 2.0em;
+  font-weight: normal;
+}
+
+h3, h4 ,p{
+	text-align:center;
+}
+
+p, li {
+  font-size: 1.4em;
+}
+
+h1, h2 {
+  margin: 1em 0;
+
+}
+
+#branding h1 {
+  margin: 0;
+  text-align: right;
+}
+
+#branding {
+  height: 50px;
+background-image: url(../images/back.png);
+  padding: 20px;
+}
+
+#mainNav {
+  list-style: none;
+}
+
+#footer {
+  background-color:#b0b0b0;
+  padding: 1px 20px;
+}
+
+/* A Tecnica do coração
+================================= */
+
+body {
+  text-align: center;
+  min-width: 760px;
+}
+
+#wrapper {
+  width: 720px;
+  margin: 0 auto;
+  text-align: left;
+  background: #fff url(../images/nav-bg-fixed.gif) repeat-y left top;
+
+}
+
+
+#content {
+  width: 520px;
+  height: 530px;
+  float: right;
+  font-size: 13px;
+  background-color: #F2FAFB;
+}
+
+#mainNav {
+  width: 180px;
+  float: left;
+}
+
+#footer {
+  clear: both;
+  color: #FFF;
+  text-align:center;
+}
+
+/* e mais alguns paddings
+================================== */
+
+#mainNav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#mainNav * {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#mainNav * * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#content * {
+  padding-right: 0px;
+
+
+}
+
+#content * * {
+  padding-right: 0;
+}
+
+.form{
+}
+
+.form, table{
+	width:500px;
+  font-size: 14px;
+}
+
+
+/* dimensões dos campos de texto*/
+
+.input-small{
+	width:20px;
+	height:20px;
+	color:blue;
+}
+
+.input-medium{
+	width:80px;
+	height:20px;
+	color:blue;
+}
+
+.input-large {
+	width:250px;
+	height:20px;
+	color:blue;
+}
+
+.input-largexx{
+	width:350px;
+	height:20px;
+	color:blue;
+}
+
+select{
+	color:blue;
+}
+
+hr{
+	color:#CCC;
+}
+
+legend{
+	color:blue;
+	font-size:15px;
+
+}
+
+input{
+	color:blue;
+}
+
+.label{
+	font-size:10px;
+	color:gray;
+}
+
+.link{
+	color:gray;
+	text-align:center;
+}
+
+.usuario-logado{
+	float:right;
+}
+-->

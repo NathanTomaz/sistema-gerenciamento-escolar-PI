@@ -1,0 +1,24 @@
+/* estilo.csss - folha de estilo geral */
+
+caption{
+	color: #FFF;
+}
+
+body{
+	background-color: #999;
+}
+
+.divlogin{
+}
+
+.divlogin table{
+	background-color:#FFF;
+	border: 1px solid #000;
+}
+
+.divhead{
+	height:150px;
+}
+.divfoot{
+	height:290px;
+}
